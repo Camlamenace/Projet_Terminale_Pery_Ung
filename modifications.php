@@ -14,8 +14,8 @@ require_once("fonction.php"); //rajouter sécurité une personne non connecté n
         <form action="modifications.php" method="post" autocomplete="on" enctype="multipart/form-data">
          Modifier Photo De Profil : <input type="file" name="Newprofil"><br>
          Nouvelle Description <br> <textarea name="NewDescription" rows="10" cols="70" ></textarea><br>
-         Ancien Mot De Passe : <input type="text" name="OldMdp"><br>
-         Nouveau Mot De Passe :<input type="text" name="Newmdp"><br>
+         Ancien Mot De Passe : <input type="password" name="OldMdp"><br>
+         Nouveau Mot De Passe :<input type="password" name="Newmdp"><br>
        devenir compte privé <input type="checkbox" name="private">  <br>
          <input type="submit" name="go"></form>
         
